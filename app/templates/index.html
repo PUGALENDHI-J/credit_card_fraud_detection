@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Credit Card Fraud Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <!-- Floating background shapes -->
+    <div class="bg-shape shape1"></div>
+    <div class="bg-shape shape2"></div>
+    <div class="bg-shape shape3"></div>
+
+    <div class="container fade-in">
+        <h1 class="title">💳 Credit Card Fraud Detection</h1>
+        <p class="subtitle">
+            A Machine Learning based intelligent system to identify fraudulent credit card transactions
+        </p>
+
+        <!-- Info cards -->
+        <div class="info-cards">
+            <div class="info-card slide-up">
+                <h3>🔐 Secure</h3>
+                <p>Detects suspicious transactions using trained ML models.</p>
+            </div>
+            <div class="info-card slide-up delay1">
+                <h3>⚡ Fast</h3>
+                <p>Analyzes thousands of transactions in seconds.</p>
+            </div>
+            <div class="info-card slide-up delay2">
+                <h3>📊 Accurate</h3>
+                <p>Trained on real-world credit card transaction data.</p>
+            </div>
+        </div>
+
+        <!-- Upload Card -->
+        <div class="card zoom-in">
+            <form action="/predict" method="post" enctype="multipart/form-data">
+                <label class="upload-box">
+                    <input type="file" name="file" required>
+                    <span>📂 Upload CSV File</span>
+                </label>
+
+                <button type="submit">🔍 Analyze Transactions</button>
+            </form>
+        </div>
+
+        <!-- Result -->
+        {% if result %}
+        <div class="result pop-in">
+            <h2>📈 Prediction Result</h2>
+            <p>{{ result }}</p>
+        </div>
+        {% endif %}
+
+        <!-- Project Description -->
+        <div class="description fade-in delay3">
+            <h2>📘 Project Overview</h2>
+            <p>
+                This project uses Machine Learning algorithms to detect fraudulent credit card transactions.
+                It helps financial institutions reduce losses by identifying suspicious activities in real time.
+            </p>
+        </div>
+
+        <footer>
+            <p>Final Year Project • Machine Learning • Flask Web Application</p>
+        </footer>
+    </div>
+
+</body>
+</html>
