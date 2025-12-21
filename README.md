@@ -80,7 +80,13 @@ This project aims to:
 
 ---
 
-## 📷 Screenshots
+## 📷 Screenshots (Streamlit workflow)
+
+
+<img width="1911" height="851" alt="Screenshot 2025-12-21 224802" src="https://github.com/user-attachments/assets/19cc7435-2211-42bc-b3cf-1f376ce8cebb" />
+
+<img width="1916" height="872" alt="Screenshot 2025-12-21 224830" src="https://github.com/user-attachments/assets/93cf5dfd-b3ad-4f3d-8e47-4ecdb98f13f1" />
+
 
 
 
