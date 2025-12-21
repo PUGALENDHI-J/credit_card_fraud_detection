@@ -10,6 +10,18 @@ Users can upload transaction data, and the model analyzes and predicts whether t
 🔗 **Streamlit App:**  
 https://creditcardfrauddetection-xfnpp2bxfwnhfnv8kgibex.streamlit.app/
 
+🎨 Note About UI / Theme Difference
+
+The colorful landing page design shown in screenshots is from the local custom UI version, which includes additional styling and animations.
+Streamlit Cloud automatically applies its default dark theme UI, so the live hosted version may look visually different, but functionality remains the same and fully operational.
+
+
+<img width="1905" height="866" alt="Screenshot 2025-12-21 224251" src="https://github.com/user-attachments/assets/d0768619-3973-4038-b594-9acbdbd1e91c" />
+
+
+The colorful UI seen in screenshots is from the local HTML/CSS version.
+The deployed Streamlit version uses default Streamlit theming due to limited CSS support in Streamlit Cloud
+
 ---
 
 ## 🎯 Objective
@@ -67,5 +79,6 @@ This project aims to:
 ---
 
 ## 📷 Screenshots
-(Add your screenshots here)
+
+
 
