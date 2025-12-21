@@ -89,6 +89,7 @@ This project aims to:
 
 
 
-## Thanks for watching my profile
+## Thanks For Spending Your Valuable Time
+
 
 
